@@ -1,0 +1,49 @@
+.banner {
+  height: 50vh;
+  position: relative;
+  background: url("https://shorttermrentalz.com/wp-content/uploads/2020/05/airbnb.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner_info {
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  padding: 25px 50px 25px 50px;
+  width: 250px;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner_info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  width: fit-content;
+}
+
+.banner_info > button:hover {
+  background-color: black;
+  border-color: white;
+}
+
+.banner_search > button {
+  background-color: white;
+  font-weight: 900;
+  text-transform: inherit;
+  color: #ff7779;
+}
+
+.banner_search > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner_search {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
