@@ -1,0 +1,17 @@
+.search_top {
+  margin: 10px 10px;
+}
+.search_tags {
+  display: flex;
+}
+
+.flex_item {
+  margin: 10px 5px;
+  border-radius: 10px;
+  padding: 4px 8px;
+  border: 1px solid lightgray;
+}
+
+.flex_item:hover {
+  border: 1px solid darkgray;
+}

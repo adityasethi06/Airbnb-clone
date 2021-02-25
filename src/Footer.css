@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #f7f7f7;
+  border-top: 1px solid lightgray;
+  align-items: center;
+  /* position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0; */
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  margin: 2px 3px;
+}

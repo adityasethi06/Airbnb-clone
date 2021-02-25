@@ -4,11 +4,13 @@ import SearchIcon from '@material-ui/icons/Search';
 import LanguageIcon from '@material-ui/icons/Language';
 import ExpandMore from '@material-ui/icons/ExpandMore';
 import { Avatar } from '@material-ui/core';
+import { withRouter } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({history}) => {
     return (
         <div className="header">
             <img 
+                onClick={() => history.push("/")}
                 style={{cursor: "pointer"}}
                 alt="airbnb"
                 className="header_icon"
@@ -27,4 +29,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default withRouter(Header)
